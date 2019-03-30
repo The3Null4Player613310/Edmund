@@ -1,0 +1,31 @@
+import java.net.*;
+
+public class Client
+{
+    private static String hostname= "localhost";
+    private static int port=1234;
+    private static InetAddress host;
+    private static DatagramSocket socket;
+    DatagramPacket packet;
+
+    public static void run()
+    {
+        try
+        {
+            host = InetAddress.getByName(hostname);
+            socket = new DatagramSocket (null);
+            packet=new DatagramPacket (new byte[100], 0,host, port);
+            socket.send (packet);
+            packet.setLength(100);
+            socket.receive (packet);
+            socket.close ();
+            byte[] data = packet.getData ();
+            String time=new String(data);  // convert byte array data into string
+            System.out.println(time);
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Quests">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_4"
+            android:title="Public Daily Quests"/>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_4"
+            android:title="Sports Quests"/>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_4"
+            android:title="Nature Quests"/>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_4"
+            android:title="Gaming Quests"/>
+    </PreferenceCategory>
+</PreferenceScreen>

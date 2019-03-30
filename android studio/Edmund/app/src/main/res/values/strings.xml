@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Strings related to app Titles-->
+    <string name="app_name">Edmund</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Edmund-->
+    <string name="edmund_greeting">"Hello."</string>
+    <string name="edmund_listening">"Listening&#8230;"</string>
+
+    <string-array name="edmund_audio">
+        <item>"Audio recording error"</item>
+    </string-array>
+    <string-array name="edmund_client">
+        <item>"Other client side errors"</item>
+    </string-array>
+    <string-array name="edmund_insufficient_permissions">
+        <item>"I'm really sorry but I don't have permission to talk to you."</item>
+    </string-array>
+    <string-array name="edmund_network">
+        <item>"Other network related errors"</item>
+    </string-array>
+    <string-array name="edmund_network_timeout">
+        <item>"Network operation timed out."</item>
+    </string-array>
+    <string-array name="edmund_no_match">
+        <item>"What."</item>
+        <item>"What was that."</item>
+        <item>"Sorry, what."</item>
+        <item>"I didn't get that."</item>
+        <item>"I didn't catch that."</item>
+        <item>"I missed that."</item>
+        <item>"Say that again."</item>
+        <item>"Can you repeat that."</item>
+    </string-array>
+    <string-array name="edmund_recognizer_busy">
+        <item>"RecognitionService busy"</item>
+    </string-array>
+    <string-array name="edmund_server">
+        <item>"Server sends error status"</item>
+    </string-array>
+    <string-array name="edmund_speech_timeout">
+        <item>"I couldn't hear you."</item>
+        <item>"Sorry I didn't hear you, can you repeat that?"</item>
+        <item>"What was that I didn't hear you."</item>
+        <item>"Oh, what was that I didn't hear you."</item>
+        <item>"I didn't hear you, can you repeat that."</item>
+        <item>"Can you repeat that."</item>
+        <item>"Sorry I didn't hear you."</item>
+        <item>"Sorry."</item>
+        <item>"I couldn't quite hear you."</item>
+        <item>"I couldn't hear you clearly."</item>
+        <item>"I couldn't hear you correctly."</item>
+        <item>"I couldn't hear you breathing."</item>
+        <item>"I couldn't hear what you said."</item>
+        <item>"Sorry, I couldn't hear you."</item>
+    </string-array>
+    <string-array name="edmund_unknown">
+        <item>"Unknown Error"</item>
+    </string-array>
+
+    <!-- Strings related to Nav Header -->
+    <string name="nav_rep_counter">Rep: %1$d</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_account">Account</string>
+    <string name="pref_header_privacy">Privacy</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <!-- Strings related to Permissions-->
+    <string name="location_permission_prompt">Please enable permissions related to Locations.</string>
+
+</resources>

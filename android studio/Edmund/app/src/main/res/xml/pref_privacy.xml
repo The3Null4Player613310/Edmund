@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Location Privacy">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_location_friends"
+            android:title="Share location with local friends"/>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_location_users"
+            android:title="Share location with local users"/>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_location_friends_events"
+            android:title="Share location with local friends during events"/>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_location_users_events"
+            android:title="Share location with local users during events"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+import java.net.*;
+import java.io.*;
+import java.util.*;
+
+public class Server
+{
+    public static int DEFAULT_PORT_UDP = 3264;
+    public static int DEFAULT_PORT_TCP = 6432;
+
+    public static void run()
+    {
+        new Thread( new ServerWorker()).start();
+        String input = "";
+        Scanner kb = new Scanner(System.in);
+        do
+        {
+            System.out.print("\f");
+            input = kb.nextLine();
+            isRunning = (!(input.equalsIgnoreCase("stop")));
+        }while(isRunning);
+    }
+}

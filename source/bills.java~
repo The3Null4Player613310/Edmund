@@ -1,0 +1,19 @@
+
+/**
+ * Write a description of class bills here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class bills
+{
+    public static void nills()
+    {
+        bill john = new bill();
+        for(int i=0;i<100;i++)
+        {
+            if(!(john==john))
+                System.out.println("Damn");
+        }
+    }
+}

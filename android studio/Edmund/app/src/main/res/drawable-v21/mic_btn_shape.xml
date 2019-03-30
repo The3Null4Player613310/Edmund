@@ -1,0 +1,10 @@
+<layer-list  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="?android:colorControlHighlight">
+
+            <item android:drawable="@drawable/mic_btn_bg_shape"/>
+
+        </ripple>
+    </item>
+</layer-list>

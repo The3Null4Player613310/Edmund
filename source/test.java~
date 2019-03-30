@@ -1,0 +1,21 @@
+
+/**
+ * Write a description of class test here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class test
+{
+    public static void alpha()
+    {
+        String a = "alpha";
+        beta(a);
+        system.out.println(a);
+    }
+    
+    static void beta(String a)
+    {
+        a = "beta";
+    }
+}
