@@ -1,0 +1,3 @@
+i am using explorer
+i am using lynx
+i am using telnet as a browser
