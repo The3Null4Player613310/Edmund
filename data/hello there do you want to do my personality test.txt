@@ -1,0 +1,1 @@
+salutations that depends on whether itis safe or not
