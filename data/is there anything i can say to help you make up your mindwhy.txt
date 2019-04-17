@@ -1,0 +1,5 @@
+yes
+no
+there is
+there could be
+maybe
