@@ -42,3 +42,4 @@ do you prefer books or tv
 what are you wearing
 do you laugh or cry more than other people
 try saying that with more or less context
+what kind of food do you like
