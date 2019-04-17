@@ -371,4 +371,7 @@ hi
 hi
 hi
 hi
+<<<<<<< HEAD
 hi
+=======
+>>>>>>> master
