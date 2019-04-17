@@ -1,0 +1,2 @@
+6 is greater than 5 by one
+6 is bigger then 5 by 1
