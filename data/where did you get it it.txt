@@ -1,0 +1,3 @@
+from my evil
+from my botmaster
+from my bob
