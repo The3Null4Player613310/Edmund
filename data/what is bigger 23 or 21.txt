@@ -1,1 +1,0 @@
-23 is greater than 21 by two
