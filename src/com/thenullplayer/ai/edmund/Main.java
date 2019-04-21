@@ -1,76 +1,72 @@
 package com.thenullplayer.ai.edmund;
-
 import java.util.*;
-import java.io.*;
 
-public class Main {
+import static com.thenullplayer.ai.edmund.Voice.speak;
 
+class Main {
 
-    //global varibles
-    static Scanner kb = new Scanner(System.in);
+    //global variables
+    private static final Scanner kb = new Scanner(System.in);
+    static volatile boolean isRunning = true;
 
     //main method
-    public static void main(String[] args) throws IOException
+    public static void main(String[] args)
     {
-        String input = "";
-        boolean prompt = true;
-
-        do
-        {
-            if(prompt)
-            {
-                System.out.print("\f");
-                System.out.println("Service: Hello and welcome please enter a command.");
-                prompt = false;
-            }
-
-            System.out.print("User: ");
-            input = kb.nextLine();
-
-            if(input.equalsIgnoreCase("client"))
-            {
-                edmundClient();
-                prompt = true;
-            }
-            else if(input.equalsIgnoreCase("server"))
-            {
-                edmundServer();
-                prompt = true;
-            }
-
-        }while(!(((input.equalsIgnoreCase("quit")) || (input.equalsIgnoreCase("exit"))) || ((input.equalsIgnoreCase("cancle")) || (input.equalsIgnoreCase("escape")))));
-    }
-
-    //client version of chat bot
-    private static void edmundClient()
-    {
+        TCPServer.manager();
 
         System.out.print("\f");
 
+        boolean isMuted=true;
+
         String prompt = "hello";
         Edmund edmund = new Edmund(prompt);
-        String input = "";
+        String input;
         String output = prompt;
+
+        //generate output
         System.out.println("Edmund: " + output);
+        if(!isMuted)
+            speak(output);
 
         do
         {
             //get input
             System.out.print("User: ");
             input = kb.nextLine();
+            input = input.trim();
 
+            //check for commands
+            if((input.length()>0) && input.charAt(0)=='!')
+            {
+                switch(input.substring(1,input.length()))
+                {
+                    case "learn":
+                        System.out.println("System: please enter a prompt");
+                        System.out.print("User: ");
+                        APLSystem.learn(kb.nextLine());
+                        System.out.println("System: fetching data");
+                        break;
+                    case "speech":
+                        isMuted=!isMuted;
+                        break;
+                    default:
+                        System.out.println("System: invalid command");
+                }
+            }
+            else
+            {
+                output = edmund.parseInput(input);
 
-            output = edmund.parseInput(input);
+                //generate output
+                System.out.println("Edmund: " + output);
+                if(!isMuted)
+                    speak(output);
+            }
+        }
+        while (!((input.equalsIgnoreCase("goodbye") || input.equalsIgnoreCase("good bye") || input.equalsIgnoreCase("bye"))
+                || (output.equalsIgnoreCase("goodbye") || output.equalsIgnoreCase("good bye") || output.equalsIgnoreCase("bye")))); //allow bot to say goodbye
+        TCPServer.isRunning = false;
+        isRunning = false;
 
-            //generate output
-            System.out.println("Edmund: " + output);
-        }while(!(((input.equalsIgnoreCase("goodbye")) || (input.equalsIgnoreCase("good bye"))) || ((output.equalsIgnoreCase("goodbye")) || (output.equalsIgnoreCase("good bye"))))); //allow bot to say goodbye
-    }
-
-    //server version of chat bot
-    private static void edmundServer()
-    {
-        Server.manager();
     }
 }
-

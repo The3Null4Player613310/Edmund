@@ -2,20 +2,20 @@ package com.thenullplayer.ai.edmund;
 
 import java.net.*;
 import java.io.*;
+import java.util.*;
 
-public class ChatWorker implements Runnable
+class ChatWorker implements Runnable
 {
 
-    Socket clientSocket;
-    BufferedReader inputStream;
-    PrintWriter outputStream;
-    Edmund edmund;
+    private final Socket clientSocket;
+    private BufferedReader inputStream;
+    private PrintWriter outputStream;
+    private Edmund edmund;
+    private static final HashMap<String, Edmund> sessions = new HashMap<String, Edmund>();
     
-
     public ChatWorker(Socket socket)
     {
         clientSocket = socket;
-        edmund = new Edmund();
         try
         {
             inputStream = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
@@ -24,14 +24,13 @@ public class ChatWorker implements Runnable
         catch(IOException ie)
         {
             ie.printStackTrace();
-            Server.isRunning = false;
         }
     }
 
     public void run()
     {
-        String data = null;
-        do
+        String data=null;
+        while(data==null)
         {
             try
             {
@@ -40,18 +39,31 @@ public class ChatWorker implements Runnable
             catch(IOException ie)
             {
                 ie.printStackTrace();
-                Server.isRunning = false;
             }
+        }
 
-            if(!(data == null))
-            {
-                System.out.println(data);
-                outputStream.println(data);
-                String output = edmund.parseInput(data);
-                System.out.println(output);
-                outputStream.println(output);
-            }
-        }while((!(data == null)) && Server.isRunning);
+        //WIP
+        String[] message = data.split(":");
+        String id = message[0];
+        String input = message[1]; 
+        //put checks here
+        
+        if(sessions.get(id)==null)
+            sessions.put(id,new Edmund("hello"));
+
+        edmund = sessions.get(id);
+        
+        String output = edmund.parseInput(input);
+        //System.out.println(output);
+
+        outputStream.println(output);
+
+        if((input.equalsIgnoreCase("goodbye") || input.equalsIgnoreCase("good bye") || input.equalsIgnoreCase("bye")) 
+        || (output.equalsIgnoreCase("goodbye") || output.equalsIgnoreCase("good bye") || output.equalsIgnoreCase("bye")))
+            sessions.remove(id);
+
+        //WIP
+        
 
         //close socket here
         try

@@ -1,20 +1,12 @@
 package com.thenullplayer.ai.edmund;
-
 import java.util.*;
 import java.io.*;
-
-public class Edmund
+class Edmund
 {
-    ArrayList<String> queryArray = new ArrayList<String>(0);
-    ArrayList<String> responseArray = new ArrayList<String>(0);
-    final int MAXMEM = 3;
-    String input = "";
-    String output = "";
-
-    //default constructor
-    public Edmund()
-    {
-    }
+    private final ArrayList<String> queryArray = new ArrayList<String>(0);
+    private final ArrayList<String> responseArray = new ArrayList<String>(0);
+    private final int MAXMEM = 3;
+    private String output = "";
 
     //set up edmund with preset prompt
     public Edmund(String prompt)
@@ -51,7 +43,10 @@ public class Edmund
 
         //fallback
         if(output.equalsIgnoreCase(""))
-            output=input;
+        {
+            output = input;
+            APLSystem.learn(input);
+        }
 
         //process output
         responseArray.add(output);
@@ -59,11 +54,53 @@ public class Edmund
         return output;
     }
 
+    //parse input from user
+    /*
+    String parseCommand(String input,String output)
+    {
+        //clean input
+        input = cleanInput(input);
+
+        //fix for empty strings so they dont break his memory
+        if(input.equalsIgnoreCase(""))
+            return input; 
+
+        //process input
+        queryArray.add(input);
+
+        //clean memory
+        while(responseArray.size()>MAXMEM)
+        {
+            responseArray.remove(0);
+            queryArray.remove(0);   
+        }
+
+        //store input
+        storeInput(responseArray,queryArray);
+
+        //retrieve output
+        output = retrieveOutput(responseArray,queryArray);
+
+        //fallback
+        if(output.equalsIgnoreCase(""))
+            output=input;
+
+        //process output
+        responseArray.add(output);
+
+        return output;
+    }
+    */
+
     //clean input from user
-    private static String cleanInput(String input)
+    static String cleanInput(String input)
     {
         //clean input
         input = input.toLowerCase();
+        input = input.replace(" + "," plus ");
+        input = input.replace(" - "," minus ");
+        input = input.replace(" * "," times ");
+        input = input.replace(" / "," divided by ");
         String tempinput = "";
         for(int i=0;i<input.length();i++)
         {
@@ -101,7 +138,7 @@ public class Edmund
             for(int j=(i); j<((responseArray.size()+queryArray.size())-2); j++)
             {
                 if(j%2==0) //WIP
-                    path = path + File.separator + responseArray.get(j/2); //j is notright val
+                    path = path + File.separator + responseArray.get(j/2); //j is not right val
                 else
                     path = path + File.separator + queryArray.get(j/2);  
             }

@@ -7,6 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="ca.pjer:chatter-bot-api:2.0.1" level="project" />
+    <orderEntry type="library" name="com.googlecode.soundlibs:mp3spi:1.9.5-1" level="project" />
+    <orderEntry type="library" name="javax.media:jmf:2.1.1e" level="project" />
   </component>
 </module>
-
