@@ -4,3 +4,5 @@ sayonara
 thanks for chatting
 goodbye
 see you later
+adios
+bye for now
