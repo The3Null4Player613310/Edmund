@@ -1,9 +1,0 @@
-import java.util.*;
-public class bill
-{
-    // instance variables - replace the example below with your own
-    public String toString()
-    {
-        return ""+(new Random()).nextInt(5);
-    }
-}
