@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+trap "" SIGTERM
+trap "" SIGINT
+trap "" EXIT
+trap "" SIGHUP
+cd /srv/edmund/
+java -jar edmund.jar
