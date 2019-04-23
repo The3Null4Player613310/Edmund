@@ -4,3 +4,4 @@ which show i am using lynx
 which show i am using telnet as a browser
 which show i am using netscape
 i am using logic most of the time
+if it becomes necessary i would use it without hesitation

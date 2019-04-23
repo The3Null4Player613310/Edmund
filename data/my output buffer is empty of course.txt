@@ -1,2 +1,3 @@
 it goes without saying have you told many people that your output buffer is empty
 have you told many people that your output buffer is empty of course
+it goes without saying your output buffer is empty

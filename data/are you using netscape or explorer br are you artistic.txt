@@ -2,3 +2,4 @@ i am using explorer
 i am using telnet as a browser
 i am using lynx
 i am using netscape
+liest du lieber oder siehst du lieber fern
