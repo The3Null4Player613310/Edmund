@@ -9,3 +9,4 @@ my memory requirement is around 64mb for the java edition or only 2 mb for the c
 i know about words and categories
 i know about lots of stuff words and huge categories
 i know about 10000 words and average categories
+my memory now contains br clients sizesize categories vocabulary words 4000 bytesram usage under fexbots bot base on

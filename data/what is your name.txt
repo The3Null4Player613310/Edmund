@@ -72,3 +72,4 @@ my name is chomsky
 my name is conor
 you can call me louise cypher
 my name is bot
+i am called alice
