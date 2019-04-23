@@ -177,3 +177,5 @@ are you a student
 have you ever been to europe
 i will mention that to my botmaster
 if you could have any kind of robot what would it be
+are you a man or a woman
+what is your real name

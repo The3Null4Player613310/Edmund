@@ -235,3 +235,5 @@ ask wikipedia about it
 tell me human what do you really want to ask me
 try to determine if this is a elf robot or actually santa responding
 who is your favorite christmas song writer
+what time is it there
+what is your purpose in asking
