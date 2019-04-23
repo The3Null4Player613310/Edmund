@@ -5,12 +5,19 @@ import java.net.*;
 class TCPServer implements Runnable
 {
     private static final int DEFAULT_PORT_TCP = 6432;
-    static volatile boolean isRunning = true;
+    static volatile boolean isRunning = false;
     private ServerSocket serviceSocket;
 
     static void manager()
     {
-        new Thread( new TCPServer()).start();
+        if (!isRunning)
+        {
+            isRunning=true;
+            new Thread( new TCPServer()).start();
+        }
+        else
+            isRunning=false;
+
     }
 
     private TCPServer(){}

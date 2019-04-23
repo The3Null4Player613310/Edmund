@@ -1,4 +1,6 @@
 package com.thenullplayer.ai.edmund;
+import java.io.File;
+import java.io.IOException;
 import java.util.*;
 
 import static com.thenullplayer.ai.edmund.Voice.speak;
@@ -12,7 +14,26 @@ class Main {
     //main method
     public static void main(String[] args)
     {
-        TCPServer.manager();
+
+
+        for(int i=0;i<args.length;i++)
+        {
+            if(args[i].equalsIgnoreCase("-S"))
+                TCPServer.manager();
+            if(args[i].equalsIgnoreCase("-L") && (i<(args.length-1)))
+            {
+                try
+                {
+                    File file = new File(args[i + 1]);
+                    APLSystem.learn(file,true);
+                    return;
+                }
+                catch(IOException e)
+                {
+                    e.printStackTrace();
+                }
+            }
+        }
 
         System.out.print("\f");
 
@@ -43,11 +64,22 @@ class Main {
                     case "learn":
                         System.out.println("System: please enter a prompt");
                         System.out.print("User: ");
-                        APLSystem.learn(kb.nextLine());
+                        APLSystem.learn(kb.nextLine(),false);
                         System.out.println("System: fetching data");
                         break;
                     case "speech":
                         isMuted=!isMuted;
+                        if(!isMuted)
+                            System.out.println("System: speech enabled");
+                        else
+                            System.out.println("System: speech disabled");
+                        break;
+                    case "server":
+                        TCPServer.manager();
+                        if(TCPServer.isRunning)
+                            System.out.println("System: server enabled");
+                        else
+                            System.out.println("System: server disabled");
                         break;
                     default:
                         System.out.println("System: invalid command");

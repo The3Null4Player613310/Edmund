@@ -380,3 +380,5 @@ hi
 hi
 hi
 bye
+hi there
+goodbye

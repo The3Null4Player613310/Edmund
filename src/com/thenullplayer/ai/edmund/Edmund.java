@@ -45,7 +45,7 @@ class Edmund
         if(output.equalsIgnoreCase(""))
         {
             output = input;
-            APLSystem.learn(input);
+            APLSystem.learn(input,false);
         }
 
         //process output
@@ -177,7 +177,7 @@ class Edmund
             for(int j=(i); j<((depth)-1); j++)//WIP
             {
                 if(j%2==0) //WIP
-                    path = path + File.separator + responseArray.get(j/2); //j is notright val //works though?
+                    path = path + File.separator + responseArray.get(j/2); //j is not right val //works though?
                 else
                     path = path + File.separator + queryArray.get(j/2);  
             }

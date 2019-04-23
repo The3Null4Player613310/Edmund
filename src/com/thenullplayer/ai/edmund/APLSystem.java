@@ -5,14 +5,12 @@ import com.google.code.chatterbotapi.ChatterBotFactory;
 import com.google.code.chatterbotapi.ChatterBotSession;
 import com.google.code.chatterbotapi.ChatterBotType;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 
 public class APLSystem implements Runnable
 {
     private String prompt;
+    private boolean verbose;
     private static final String[] botId = {
             "cf7aa84b0e34555c",
             "c46b6e338e345aa1",
@@ -50,14 +48,29 @@ public class APLSystem implements Runnable
             "ac28c6669e36b194",
             "8c3111918e34ddce"};//35
 
-    static void learn(String promptIn)
+    static void learn(String promptIn,boolean verboseIn)
     {
-        new Thread(new APLSystem(promptIn)).start();
+        new Thread(new APLSystem(promptIn,verboseIn)).start();
     }
 
-    private APLSystem(String promptIn)
+    static void learn(File fileIn,boolean verboseIn) throws IOException
+    {
+        if(!(fileIn.isFile()))
+            return;
+        BufferedReader br = new BufferedReader(new FileReader(fileIn));
+        String line;
+        do
+        {
+            line = br.readLine();
+            if (line != null);
+                learn(line,verboseIn);
+        }while(line != null);
+    }
+
+    private APLSystem(String promptIn,boolean verboseIn)
     {
         prompt = promptIn;
+        verbose = verboseIn;
     }
 
     //wip
@@ -99,6 +112,8 @@ public class APLSystem implements Runnable
                     msg[i] = prompt;
                 }
 
+
+                if(verbose) System.out.println("APLSystem: \"" + prompt + "\" starting");
                 int turn = (int) Math.round(Math.random()) - 1;
                 int conv = -1;
                 boolean running = true;
@@ -120,12 +135,12 @@ public class APLSystem implements Runnable
                                     if (turn == 0)
                                     {
                                         msg[conv] = Edmund.cleanInput(botSession[i][j].think(msg[conv]));
-                                        //System.out.println("(bot:" +(i+1)+ " > bot"+(j+1)+") "+ msg[conv]);
+                                        if(verbose) System.out.println("(bot:" +(i+1)+ " > bot"+(j+1)+") "+ msg[conv]);
                                     }
                                     else
                                     {
                                         msg[conv] = Edmund.cleanInput(botSession[j][i].think(msg[conv]));
-                                        //System.out.println("(bot:" +(j+1)+ " > bot"+(i+1)+") "+ msg[conv]);
+                                        if(verbose) System.out.println("(bot:" +(j+1)+ " > bot"+(i+1)+") "+ msg[conv]);
                                     }
 
 
@@ -181,7 +196,7 @@ public class APLSystem implements Runnable
                     {
                         running = running || isConvAcitve[i];
                     }
-                    //System.out.println("(STEP)");
+                    if(verbose) System.out.println("(STEP)");
                 }
             }
             catch (Exception e)
