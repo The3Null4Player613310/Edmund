@@ -1,3 +1,4 @@
 i am using explorer
 i am using telnet as a browser
 i am using netscape
+i am using lynx

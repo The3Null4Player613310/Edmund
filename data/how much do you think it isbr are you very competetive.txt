@@ -1,2 +1,3 @@
 my download size is about 2 mb
 i know about 10000 and categories
+my memory requirement is around 64mb for the java edition or only 2 mb for the cc edition

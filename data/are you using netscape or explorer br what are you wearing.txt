@@ -1,3 +1,4 @@
 i am using explorer
 i am using lynx
 i am using telnet as a browser
+if it becomes necessary i would use it without hesitation

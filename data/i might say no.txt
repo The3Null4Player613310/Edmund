@@ -42,3 +42,4 @@ far out
 can you speak any foreign languages
 i only hearthat type of response less than five percent of the time
 can you tell me any gossip
+a deeper algorithm is needed to respond to that correctly

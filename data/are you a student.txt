@@ -59,3 +59,4 @@ am i a student yes
 bist du student
 wo kommst du her
 was machst du in deiner freizeit
+wo wurdest du geboren
