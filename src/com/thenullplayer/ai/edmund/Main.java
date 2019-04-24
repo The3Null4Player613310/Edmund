@@ -18,6 +18,8 @@ class Main {
 
         for(int i=0;i<args.length;i++)
         {
+            if(args[i].equalsIgnoreCase("-G"))
+                GUI.start();
             if(args[i].equalsIgnoreCase("-S"))
                 TCPServer.manager();
             if(args[i].equalsIgnoreCase("-L") && (i<(args.length-1)))
@@ -33,11 +35,10 @@ class Main {
                     e.printStackTrace();
                 }
             }
+
         }
 
         System.out.print("\f");
-
-        boolean isMuted=true;
 
         String prompt = "hello";
         Edmund edmund = new Edmund(prompt);
@@ -46,8 +47,7 @@ class Main {
 
         //generate output
         System.out.println("Edmund: " + output);
-        if(!isMuted)
-            speak(output);
+        Voice.speak(output);
 
         do
         {
@@ -68,8 +68,7 @@ class Main {
                         System.out.println("System: fetching data");
                         break;
                     case "speech":
-                        isMuted=!isMuted;
-                        if(!isMuted)
+                        if(Voice.isRunning)
                             System.out.println("System: speech enabled");
                         else
                             System.out.println("System: speech disabled");
@@ -91,8 +90,7 @@ class Main {
 
                 //generate output
                 System.out.println("Edmund: " + output);
-                if(!isMuted)
-                    speak(output);
+                Voice.speak(output);
             }
         }
         while (!((input.equalsIgnoreCase("goodbye") || input.equalsIgnoreCase("good bye") || input.equalsIgnoreCase("bye"))

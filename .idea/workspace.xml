@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e5435-74fc-4382-a2a2-4d6ee69d1d9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ayuh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/ayuh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/carel capek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/carel capek.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/do you mind if i tell other people.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/do you mind if i tell other people.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/ello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/for moral reasons.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/for moral reasons.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hello/hi/ello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hello/hi/ello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hi/ello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hi/ello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/how did you hear about verity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/how did you hear about verity.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interesting what makes you think that about me.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/interesting what makes you think that about me.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/no i didnt/which bit are confused about.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/no i didnt/which bit are confused about.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/oh/so.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/oh/so.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/perhaps you should ask your friends.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/perhaps you should ask your friends.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/so.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/so.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/which bit are confused about.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/which bit are confused about.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/you seem uncertain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/you seem uncertain.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +37,55 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/GUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-194">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ismuted</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,27 +102,28 @@
         <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Writer.java" />
         <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Driver.java" />
         <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Old.java" />
-        <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java" />
         <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Counter.java" />
         <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/ChatWorker.java" />
         <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/APLSystem.java" />
         <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/TCPServer.java" />
-        <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java" />
         <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Edmund.java" />
+        <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/GUI.java" />
+        <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="458" />
+    <option name="y" value="365" />
+    <option name="width" value="691" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -80,6 +147,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,6 +184,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GUI" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
+      <module name="Edmund" />
+      <option name="PROGRAM_PARAMETERS" value="-G" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
       <module name="Edmund" />
@@ -136,6 +212,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.GUI" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.APLSystem" />
     </list>
@@ -155,13 +232,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-2" width="1444" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24892704" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25250357" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.32806325" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.22793148" />
@@ -169,7 +247,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32938075" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32806325" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49928468" weight="0.49802372" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49928468" visible="true" weight="0.5783926" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -216,53 +294,15 @@
     <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Driver_Menu.java" />
     <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Reader.java" />
     <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Writer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/UDPWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/UDPWorker.java" />
     <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/ServerWorker.java" />
     <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Old.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/TCPWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/TCPWorker.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Server.java" />
     <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="35" column="5" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -300,6 +340,35 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
         </state>
       </provider>
     </entry>

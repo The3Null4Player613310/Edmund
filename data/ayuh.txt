@@ -26,3 +26,4 @@ so
 what do you want to talk about
 what do you want to talk about
 ok
+bye
