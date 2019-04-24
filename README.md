@@ -1,1 +1,13 @@
 ## Edmund
+1. [Setup](https://github.com/The3Null4Player613310/Edmund/wiki/Setup)
+    1. [Installation](https://github.com/The3Null4Player613310/Edmund/wiki/Setup#setup-installation)
+        1. [Client](https://github.com/The3Null4Player613310/Edmund/wiki/Setup#setup-installation-client)
+        2. [Server](https://github.com/The3Null4Player613310/Edmund/wiki/Setup#setup-installation-server)
+    2. [Configuration](https://github.com/The3Null4Player613310/Edmund/wiki/Setup#setup-configuration)
+    3. [Syncing](https://github.com/The3Null4Player613310/Edmund/wiki/Setup#setup-syncing)
+ 2. [Usage](https://github.com/The3Null4Player613310/Edmund/wiki/Usage)
+    1. [Client](https://github.com/The3Null4Player613310/Edmund/wiki/Usage#usage-client)
+    2. [Server](https://github.com/The3Null4Player613310/Edmund/wiki/Usage#usage-server)
+    3. [Mobile](https://github.com/The3Null4Player613310/Edmund/wiki/Usage#usage-mobile)
+ 3. [F.A.Q.](https://github.com/The3Null4Player613310/Edmund/wiki/F.A.Q)
+ 4. [Troubleshooting](https://github.com/The3Null4Player613310/Edmund/wiki/Troubleshooting)
