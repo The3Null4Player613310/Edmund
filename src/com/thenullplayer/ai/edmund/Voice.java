@@ -9,6 +9,11 @@ class Voice
 {
     public static boolean isRunning = false;
 
+    static void manager()
+    {
+        isRunning = !isRunning;
+    }
+
     static void speak(String string)
     {
         if(!isRunning)
@@ -39,6 +44,7 @@ class Voice
         try
         {
             AudioInputStream in = null;
+            int attempt = 0;
             do
             {
                 URL url = getURL(word);
@@ -48,9 +54,10 @@ class Voice
                 }
                 catch(Exception e)
                 {
-                    //e.printStackTrace();
+                    e.printStackTrace();
                 }
-            }while(in==null);
+                attempt++;
+            }while((in==null) && (attempt <= 3));
 
             AudioFormat baseFormat = in.getFormat();
             AudioFormat decodedFormat = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED,
@@ -67,7 +74,7 @@ class Voice
         }
         catch (Exception e)
         {
-            //e.printStackTrace();
+            e.printStackTrace();
             //Handle exception.
         }
     }
@@ -105,7 +112,8 @@ class Voice
 
     private static URL getURL(String word)
     {
-        int choice = ((int) Math.floor(Math.random() * 6));
+        int choice = ((int) Math.floor(Math.random() * 7));
+        choice=0; //wip
         //System.err.println(choice);
         URL url = null;
         String wordf;
@@ -117,36 +125,40 @@ class Voice
             switch (choice)
             {
                 case 0:
+                    wordf = word;
+                    url = new URL("http://mary.dfki.de:59125/process?INPUT_TYPE=TEXT&OUTPUT_TYPE=AUDIO&INPUT_TEXT=" + wordf + "&LOCALE=en_GB&AUDIO=WAVE_FILE");
+                    break;
+                case 1:
                     wordf = word + "--_us_1";
                     url = new URL("http://ssl.gstatic.com/dictionary/static/sounds/20160317/" + wordf + ".mp3");
                     break;
-                case 1:
+                case 2:
                     wordf = word;
                     url = new URL("http://www.howjsay.com/mp3/" + wordf + ".mp3");
                     break;
-                case 2:
+                case 3:
                     wordf = "en_us_" + word;
                     word1 = (wordf.length() >= 1) ? wordf.substring(0, 1) : wordf.substring(0, wordf.length());
                     word3 = (wordf.length() >= 3) ? wordf.substring(0, 3) : wordf.substring(0, wordf.length());
                     word5 = (wordf.length() >= 5) ? wordf.substring(0, 5) : wordf.substring(0, wordf.length());
                     url = new URL("https://www.collinsdictionary.com/sounds/" + word1 + "/" + word3 + "/" + word5 + "/" + wordf + ".mp3");
                     break;
-                case 3:
+                case 4:
                     wordf = word;
                     word1 = (wordf.length() >= 1) ? wordf.substring(0, 1) : wordf.substring(0, wordf.length());
                     word3 = (wordf.length() >= 3) ? wordf.substring(0, 3) : wordf.substring(0, wordf.length());
                     word5 = (wordf.length() >= 5) ? wordf.substring(0, 5) : wordf.substring(0, wordf.length());
                     url = new URL("http://dictionary.cambridge.org/media/english/us_pron/" + word1 + "/" + word3 + "/" + word5 + "/" + wordf + ".mp3");
                     break;
-                case 4:
+                case 5:
                     wordf = word;
                     word1 = (wordf.length() >= 1) ? wordf.substring(0, 1) : wordf.substring(0, wordf.length());
                     word3 = (wordf.length() >= 3) ? wordf.substring(0, 3) : wordf.substring(0, wordf.length());
                     word5 = (wordf.length() >= 5) ? wordf.substring(0, 5) : wordf.substring(0, wordf.length());
                     url = new URL("http://dictionary.cambridge.org/media/english/uk_pron/" + word1 + "/" + word3 + "/" + word5 + "/" + wordf + ".mp3");
                     break;
-                case 5:
-                    wordf = word + "_British_English_pronunciation";
+                case 6:
+                    wordf = word.toUpperCase() + "_British_English_pronunciation";
                     word1 = (wordf.length() >= 1) ? wordf.substring(0, 1) : wordf.substring(0, wordf.length());
                     word3 = (wordf.length() >= 3) ? wordf.substring(0, 3) : wordf.substring(0, wordf.length());
                     word5 = (wordf.length() >= 5) ? wordf.substring(0, 5) : wordf.substring(0, wordf.length());

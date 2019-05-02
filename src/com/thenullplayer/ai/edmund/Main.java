@@ -3,8 +3,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
-import static com.thenullplayer.ai.edmund.Voice.speak;
-
 class Main {
 
     //global variables
@@ -68,6 +66,7 @@ class Main {
                         System.out.println("System: fetching data");
                         break;
                     case "speech":
+                        Voice.manager();
                         if(Voice.isRunning)
                             System.out.println("System: speech enabled");
                         else
