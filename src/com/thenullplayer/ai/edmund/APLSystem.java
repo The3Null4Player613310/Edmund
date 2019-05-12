@@ -46,7 +46,25 @@ public class APLSystem implements Runnable
             "fbf7c682ee37785d",
             "f5d922d97e345aa1",
             "ac28c6669e36b194",
-            "8c3111918e34ddce"};//35
+            "8c3111918e34ddce",//35
+            "d3a87e77fe377a56",
+            "a49104941e378378",
+            "b0a6a41a5e345c23",
+            "dbf443e58e345c14",
+            "a66718a38e345c15",//40
+            "cd44746d1e3755a1",
+            "9e129a956e3548fd",
+            "c406f0d66e345c27",
+            "c9c4b9bf6e345c25",
+            "dc1d07a34e345c11",//45
+            "a24817d97e345c18",
+            "9a6afa571e37bb1d",
+            "c4592e67ee345c1d",
+            "92a17c090e345816",
+            "86289ef30e345c10",//50
+            "af2153a04e345c1f",
+            "ca2d26f6ee345c1e",
+            "b693735f8e345c22"};
 
     static void learn(String promptIn,boolean verboseIn)
     {
