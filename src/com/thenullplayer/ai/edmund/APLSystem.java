@@ -87,7 +87,7 @@ public class APLSystem implements Runnable
 
     private APLSystem(String promptIn,boolean verboseIn)
     {
-        prompt = promptIn;
+        prompt = Edmund.cleanInput(promptIn);
         verbose = verboseIn;
     }
 

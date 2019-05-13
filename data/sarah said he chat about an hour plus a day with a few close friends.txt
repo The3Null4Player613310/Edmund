@@ -2,3 +2,4 @@ do you have any conditions ishould know about
 that input matched my default category
 if you could have any kind of robot what would it be
 are you still located in
+try to determine if this is a person or a computer responding

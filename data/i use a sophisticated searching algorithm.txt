@@ -1,1 +1,2 @@
 a sophisticated searching algorithm ought to work
+a ought to work

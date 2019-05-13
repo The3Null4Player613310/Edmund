@@ -1,0 +1,1 @@
+when is a method not a block of code containing a series of statements that can receive an input performs actions produces an output

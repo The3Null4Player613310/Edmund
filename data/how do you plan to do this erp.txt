@@ -1,2 +1,3 @@
 that information is confidential do you have a chat robot yet
 i use a sophisticated genetic algorithm
+i use a sophisticated neural network

@@ -1,0 +1,2 @@
+aiml or artificial intelligence markup language is a form of xml that allows you to define rules for matching patterns and determining responses
+aiml stands for artificial intelligence markup language and is an xml dialect for creating natural language software agents

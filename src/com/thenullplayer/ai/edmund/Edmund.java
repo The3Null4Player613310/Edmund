@@ -125,6 +125,7 @@ class Edmund
             tempinput = tempinput.replaceAll("  "," ");
         }while(tempinput.contains("  "));
         input = tempinput.trim();
+
         return input;
     }
 

@@ -69,3 +69,7 @@ female br ok i will ask it
 versuch mal herauszufinden ob hier ein mensch oder eine maschine spricht
 i am female br they are not available right now but i will ask them later
 i am a female robot entity br they are not available right now would you like to wait
+sprich lieber deutsch mit mir
+sorry i only speak german
+may be later other languages too
+i am a man robot entity
