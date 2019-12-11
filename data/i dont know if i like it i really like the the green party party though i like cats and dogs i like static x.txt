@@ -1,0 +1,1 @@
+static is a modifier used to create data and functions that can be accessed without creating an instance of the class in otherwords an object the advantage here is that by using static separate data and behavior to become independent of any object identitydata and functions do not change regardless of what happens to the object

@@ -1,0 +1,1 @@
+aiml stands for artificial intelligence markup language and is an xml dialect for creating natural language software agents
