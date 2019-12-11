@@ -187,3 +187,7 @@ ask alison if it does br i dont know anything about it
 ask artificial iniaes if it does br i would do a search for it
 ask chatbot if it does br i would do a search for it
 i cant tell if it does or not br i have to process that one for a while
+try asking another bot br you tell me
+try asking another bot br i need time to formulate the reply
+im sorry i dont have enough information br ask the open directory about it
+wo wohnst du

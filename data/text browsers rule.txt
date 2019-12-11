@@ -6,3 +6,5 @@ what is your real name
 does it still refer to
 are you free
 are you a student
+where are you located
+who are you talking about

@@ -1,1 +1,2 @@
 earth
+some specific location

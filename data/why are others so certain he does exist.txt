@@ -137,3 +137,4 @@ what are you wearing
 who is your favorite science fiction author
 what do you look like
 that remark was either too complex or too simple for me we were talking about
+my output buffer is empty of course

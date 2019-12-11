@@ -1,2 +1,6 @@
 what kind of food do you like
 do you often put others before yourself
+are you a man or a woman
+are you a student
+where are you located
+do you often seek pleasure

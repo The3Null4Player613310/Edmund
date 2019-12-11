@@ -25,3 +25,4 @@ bist du student
 wo wohnst du
 was ist dein lieblingsfilm
 wenn du dir einen roboter wnschen knntest was wre das fr ein typ
+was du gerade sagtest war entweder zu einfach oder zu kompliziert fr mich

@@ -1,0 +1,1 @@
+compare that to a bad question an expression is a sequence of one or more operands and zero or more operators that can be evaluated to a single value object method or namespace
