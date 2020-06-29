@@ -12,59 +12,69 @@ public class APLSystem implements Runnable
     private String prompt;
     private boolean verbose;
     private static final String[] botId = {
-            "cf7aa84b0e34555c",
-            "c46b6e338e345aa1",
-            "c07fc49ade34ddcd",
-            "b4fa092c8e361beb",
-            "f0962253ee345b71",//5
-            "ea373c261e3458c6",
-            "935a0a567e34523c",
-            "e365655dbe351ac7",
-            "df9c8acfde345d97",
-            "f00247f93e342298",//10
-            "8ad83d9f6e34da9f",
-            "efc39100ce34d038",
-            "94ade513be34ddcf",
-            "94023160ee3425e0",
-            "cb6110ed0e35ba05",//15
-            "bd536f6c9e344e02",
             "83dcad851e345e3c",
-            "c39a3375ae34d985",
-            "b54a7c1d7e368331",
-            "b1e9139eee362838",//20
-            "e18842b12e344e02",
-            "b0dafd24ee35a477",
+            "86289ef30e345c10",
+            "87ff1fbece37b79f",
+            "8c3111918e34ddce",
+            "8ad83d9f6e34da9f",//5
+            "92a17c090e345816",
+            "935a0a567e34523c",
+            "94023160ee3425e0",
+            "94ade513be34ddcf",
+            "9750f915fe3619ae",//10
+            "97fcd7450e3442d9",
+            "98bb77e1ce34244a",
             "99d674d62e342605",
-            "e904a1fbae34ddc1",
-            "eeb070e74e366473",//25
-            "ffdec4afbe345f75",
-            "ab3992075e37ba81",
-            "e6b3d89abe37ba83",
-            "efbf0b2b5e34242b",
-            "98bb77e1ce34244a",//30
+            "9a6afa571e37bb1d",
+            "9e129a956e3548fd",//15
+            "a24817d97e345c18",
+            "a49104941e378378",
+            "a66718a38e345c15",
+            "a847934aae3456cb",
+            "ab3992075e37ba81",//20
+            "ac28c6669e36b194",
+            "ac4a0f5c0e377942",
+            "af2153a04e345c1f",
+            "af875acc8e345fec",
+            "b0a6a41a5e345c23",//25
+            "b0dafd24ee35a477",
+            "b1e9139eee362838",
+            "b4fa092c8e361beb",
+            "b54a7c1d7e368331",
+            "b693735f8e345c22",//30
+            "b8d616e35e36e881",
+            "b8e200d62e3459ea",
+            "bd536f6c9e344e02",
+            "c07fc49ade34ddcd",
+            "c39a3375ae34d985",//35
+            "c406f0d66e345c27",
+            "c4592e67ee345c1d",
+            "c46b6e338e345aa1",
+            "c867aeea4e345ad2",
+            "c9c4b9bf6e345c25",//40
+            "ca2d26f6ee345c1e",
+            "cb6110ed0e35ba05",
+            "cd44746d1e3755a1",
+            "cf7aa84b0e34555c",
+            "d3a87e77fe377a56",//45
+            "dbf443e58e345c14",
+            "dc1d07a34e345c11",
+            "df9c8acfde345d97",
             "e1350fb18e345a6e",
+            "e18842b12e344e02",//50
+            "e365655dbe351ac7",
+            "e6b3d89abe37ba83",
+            "e904a1fbae34ddc1",
+            "ea373c261e3458c6",
+            "eeb070e74e366473",//55
+            "efbf0b2b5e34242b",
+            "ef90e5c1be347e01",
+            "efc39100ce34d038",
+            "f00247f93e342298",
+            "f0962253ee345b71",//60
             "fbf7c682ee37785d",
             "f5d922d97e345aa1",
-            "ac28c6669e36b194",
-            "8c3111918e34ddce",//35
-            "d3a87e77fe377a56",
-            "a49104941e378378",
-            "b0a6a41a5e345c23",
-            "dbf443e58e345c14",
-            "a66718a38e345c15",//40
-            "cd44746d1e3755a1",
-            "9e129a956e3548fd",
-            "c406f0d66e345c27",
-            "c9c4b9bf6e345c25",
-            "dc1d07a34e345c11",//45
-            "a24817d97e345c18",
-            "9a6afa571e37bb1d",
-            "c4592e67ee345c1d",
-            "92a17c090e345816",
-            "86289ef30e345c10",//50
-            "af2153a04e345c1f",
-            "ca2d26f6ee345c1e",
-            "b693735f8e345c22"};
+            "ffdec4afbe345f75"};
 
     static void learn(String promptIn,boolean verboseIn)
     {
