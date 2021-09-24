@@ -45,7 +45,7 @@ class Edmund
         if(output.equalsIgnoreCase(""))
         {
             output = input;
-            APLSystem.learn(input,false);
+            APLSystem.learn(input,Main.isVerbose);
         }
 
         //process output

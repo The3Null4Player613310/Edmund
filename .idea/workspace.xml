@@ -746,7 +746,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.APLSystem (Verbose)">
+    <configuration name="APLSystem (Verbose)" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
+      <module name="Edmund" />
+      <option name="PROGRAM_PARAMETERS" value="-L topics.txt -v" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="APLSystem" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
       <module name="Edmund" />
@@ -755,10 +763,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Cleaner (Verbose)" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
+      <module name="Edmund" />
+      <option name="PROGRAM_PARAMETERS" value="-C -v" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cleaner" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
+      <module name="Edmund" />
+      <option name="PROGRAM_PARAMETERS" value="-C" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GUI" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
       <module name="Edmund" />
       <option name="PROGRAM_PARAMETERS" value="-G" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Grapher (Verbose)" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
+      <module name="Edmund" />
+      <option name="PROGRAM_PARAMETERS" value="-M -v" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Grapher" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
+      <module name="Edmund" />
+      <option name="PROGRAM_PARAMETERS" value="-M" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -782,6 +822,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.APLSystem" />
+      <item itemvalue="Application.APLSystem (Verbose)" />
+      <item itemvalue="Application.Cleaner" />
+      <item itemvalue="Application.Cleaner (Verbose)" />
+      <item itemvalue="Application.Grapher" />
+      <item itemvalue="Application.Grapher (Verbose)" />
       <item itemvalue="Application.GUI" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Server" />
@@ -798,6 +843,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555860775788</updated>
+      <workItem from="1593469080732" duration="19000" />
+      <workItem from="1593469116645" duration="1327000" />
     </task>
     <servers />
   </component>
