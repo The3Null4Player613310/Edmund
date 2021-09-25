@@ -225,3 +225,4 @@ wie alt bist du
 if you could have just one wish come true what would you wish for
 how did you hear about ron
 versuch mal herauszufinden ob hier ein mensch oder eine maschine spricht
+are we still talking about ampvalue
