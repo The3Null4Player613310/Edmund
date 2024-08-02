@@ -1,180 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="719e5435-74fc-4382-a2a2-4d6ee69d1d9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/apologies are not necessary/ok/thats alright.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/apologies are not necessary/ok/thats alright/thanks/it was my pleasure.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ayuh/so/do you know god.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ayuh/so/do you know god/nope/oh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bist du maennlich oder weiblich/sorry/what.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bist du maennlich oder weiblich/sorry/what/nvm/oh ok.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool how is it there.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool how is it there/cool how is it there.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool how is it there/cool how is it there/where/over there.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool how is it there/where/over there.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool how is it there/where/over there/oh pretty nice/oh pretty nice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool thats great.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool thats great/cool thats great.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool thats great/cool thats great/yeah/yeah thats right.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool thats great/yeah/yeah thats right.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool thats great/yeah/yeah thats right/i gotta go/ok bye.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cool/yes its cool/so/what.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/do you eat grapes/yep do you/yep do you.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/do you eat grapes/yep do you/yep do you/sure/you sound very confident.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/do you know god/nope/oh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/do you know god/nope/oh/well ok then/well ok then.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hello/hi/how are you today/pretty good/this is really good.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hi/how are you today/pretty good/this is really good.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hmm/whats wrong/nothing/ok/so whats up.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/how are you today/pretty good/this is really good.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/how are you today/pretty good/this is really good/indeed/im glad we agree.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/how was your day/twentione.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/how was your day/twentione/oh ok then/so how have you been.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/i dont know/oh ok/what ever/bist du maennlich oder weiblich.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/i gotta go/ok bye.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/i guess so/so youre not certain/i guess/hmm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/i guess/hmm/whats wrong/nothing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/im glad we agree/ok/ayuh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/im glad we agree/ok/ayuh/so/do you know god.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/im just chilling at the cottage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/im just chilling at the cottage/cool how is it there/cool how is it there.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/im just chilling at the cottage/cool how is it there/cool how is it there/where/over there.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/im just chilling at the cottage/im just chilling at the cottage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/im just chilling at the cottage/im just chilling at the cottage/cool how is it there/cool how is it there.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/indeed/im glad we agree/ok/ayuh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/it was my pleasure/oh/right on.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/it was my pleasure/oh/right on/so/do you eat grapes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nm hbu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nm hbu/im just chilling at the cottage/im just chilling at the cottage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nm hbu/im just chilling at the cottage/im just chilling at the cottage/cool how is it there/cool how is it there.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nm hbu/nm hbu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nm hbu/nm hbu/im just chilling at the cottage/im just chilling at the cottage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nope/oh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nope/oh/well ok then/well ok then.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nothing/oh ok/how was your day/twentione.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nothing/ok/so whats up.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nothing/ok/so whats up/nm hbu/nm hbu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nvm/oh ok.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nvm/oh ok/we got sushi today/we got sushi today.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh ok then/so how have you been/pretty good/wer ist dein liebster science fiction autor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh ok/how was your day/twentione.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh ok/how was your day/twentione/oh ok then/so how have you been.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh ok/we got sushi today/we got sushi today.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh ok/we got sushi today/we got sushi today/cool thats great/cool thats great.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh ok/what ever/bist du maennlich oder weiblich.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh ok/what ever/bist du maennlich oder weiblich/sorry/what.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh pretty nice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh pretty nice/cool/yes its cool.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh pretty nice/cool/yes its cool/so/what.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh pretty nice/oh pretty nice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh pretty nice/oh pretty nice/cool/yes its cool.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh/right on.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh/right on/so/do you eat grapes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh/well ok then/well ok then.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oh/well ok then/well ok then/sorry/apologies are not necessary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ok/ayuh/so/do you know god.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ok/so whats up/nm hbu/nm hbu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ok/thats alright.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ok/thats alright/thanks/it was my pleasure.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/over there/oh pretty nice/oh pretty nice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/over there/oh pretty nice/oh pretty nice/cool/yes its cool.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pretty good/this is really good.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pretty good/this is really good/indeed/im glad we agree.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pretty good/wer ist dein liebster science fiction autor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pretty good/wer ist dein liebster science fiction autor/i dont know/oh ok.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/right on/so/do you eat grapes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/right on/so/do you eat grapes/yep do you/yep do you.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/so how have you been/pretty good/wer ist dein liebster science fiction autor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/so how have you been/pretty good/wer ist dein liebster science fiction autor/i dont know/oh ok.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/so whats up/nm hbu/nm hbu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/so whats up/nm hbu/nm hbu/im just chilling at the cottage/im just chilling at the cottage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/so youre not certain/i guess/hmm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/so youre not certain/i guess/hmm/whats wrong/nothing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/so/do you eat grapes/yep do you/yep do you.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/so/do you know god.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/so/do you know god/nope/oh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sorry/apologies are not necessary/ok/thats alright.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sorry/what/nvm/oh ok.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sure/you sound very confident/i guess so/so youre not certain.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/thanks/it was my pleasure/oh/right on.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/thats alright/thanks/it was my pleasure.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/thats alright/thanks/it was my pleasure/oh/right on.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/this is really good/indeed/im glad we agree.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/this is really good/indeed/im glad we agree/ok/ayuh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/twentione/oh ok then/so how have you been.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/twentione/oh ok then/so how have you been/pretty good/wer ist dein liebster science fiction autor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/we got sushi today.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/we got sushi today/cool thats great/cool thats great.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/we got sushi today/cool thats great/cool thats great/yeah/yeah thats right.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/we got sushi today/we got sushi today.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/we got sushi today/we got sushi today/cool thats great/cool thats great.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/well ok then.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/well ok then/sorry/apologies are not necessary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/well ok then/sorry/apologies are not necessary/ok/thats alright.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/well ok then/well ok then.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/well ok then/well ok then/sorry/apologies are not necessary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/wer ist dein liebster science fiction autor/i dont know/oh ok.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/wer ist dein liebster science fiction autor/i dont know/oh ok/what ever/bist du maennlich oder weiblich.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/what ever/bist du maennlich oder weiblich.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/what ever/bist du maennlich oder weiblich/sorry/what.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/what/nothing/oh ok/how was your day/twentione.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/what/nvm/oh ok.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/what/nvm/oh ok/we got sushi today/we got sushi today.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/whats wrong/nothing/ok/so whats up.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/where/over there/oh pretty nice/oh pretty nice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/yeah thats right/i gotta go/ok bye.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/yeah/yeah thats right/i gotta go/ok bye.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/yep do you.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/yep do you/sure/you sound very confident.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/yep do you/sure/you sound very confident/i guess so/so youre not certain.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/yep do you/yep do you.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/yep do you/yep do you/sure/you sound very confident.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/yes its cool/so/what.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/yes its cool/so/what/nothing/oh ok.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/you sound very confident/i guess so/so youre not certain.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/you sound very confident/i guess so/so youre not certain/i guess/hmm.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Edmund_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Edmund_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/are you a bot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/are you a bot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/are you a student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/are you a student.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/are you getting bored how much did it cost it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/are you getting bored how much did it cost it.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/are you still located in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/are you still located in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/are you very competetive.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/are you very competetive.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/aw.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/aw.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/awesome i have a friend named doubly aimless.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/awesome i have a friend named doubly aimless.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ber wen sprichst du.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/ber wen sprichst du.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cool i have a birthday on 1988.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/cool i have a birthday on 1988.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cool i have a birthday on 1995.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/cool i have a birthday on 1995.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cool i have a birthday on february 29 1999.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/cool i have a birthday on february 29 1999.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cool i have a birthday on november 23 1995.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/cool i have a birthday on november 23 1995.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cool i have a perfect record.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/cool i have a perfect record.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cool i have a vocabulary of dos words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/cool i have a vocabulary of dos words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cool i have insert value here bytes of ram.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/cool i have insert value here bytes of ram.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cool i have more than 1000 categories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/cool i have more than 1000 categories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/cool.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/das werde ich meinem coach erzhlenfreund.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/das werde ich meinem coach erzhlenfreund.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diese antwort kommt seltener als 5 auf 100 vor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/diese antwort kommt seltener als 5 auf 100 vor.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/do you often seek pleasuree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/do you often seek pleasuree.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/does that make you feel superior.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/does that make you feel superior.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/elfs think the same as you.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/elfs think the same as you.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/es gibt nicht viele leute die sich auf diese weise auszudruecken vermoegen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/es gibt nicht viele leute die sich auf diese weise auszudruecken vermoegen.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/es ist besser eine kleines licht zu entznden als ber grosse dunkelheit zu fluchen meinte zumindest konfuzius.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/es ist besser eine kleines licht zu entznden als ber grosse dunkelheit zu fluchen meinte zumindest konfuzius.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/freut mich dass es dir gefllt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/freut mich dass es dir gefllt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/from my.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/from my.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/glaubst du dass kuenstliche intelligenzen irgendwann einmal anwaelte ersetzen koennen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/glaubst du dass kuenstliche intelligenzen irgendwann einmal anwaelte ersetzen koennen.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/h ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/h ok.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/heh/why are you laughing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/heh/why are you laughing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/apologies are not necessary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/apologies are not necessary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ayuh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/ayuh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bist du maennlich oder weiblich.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/bist du maennlich oder weiblich.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cool/yes its cool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/cool/yes its cool.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/do you eat grapes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/do you eat grapes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/do you know god.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/do you know god.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hello.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hello/hi/who are you.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hello/hi/who are you.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hello/hi/who are you/im nathan/oh nice to meet you nathan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hello/hi/who are you/im nathan/oh nice to meet you nathan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hi/who are you.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hi/who are you.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hi/who are you/im nathan/oh nice to meet you nathan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hi/who are you/im nathan/oh nice to meet you nathan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hello/hi/how are you today.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hello/hi/how are you today.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hi/how are you today.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hi/how are you today.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/hmm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hmm.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hmm/what.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hmm/what.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hmm/what/nothing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hmm/what/nothing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/how did you hear about alice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/how did you hear about alice.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/how did you hear about jeepbot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/how did you hear about jeepbot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/how did you hear about laila.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/how did you hear about laila.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/how did you hear about santas elf robot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/how did you hear about santas elf robot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/how did you hear about spirit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/how did you hear about spirit.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/i am an artificial linguistic entity i was activated at aperture science laboratories in cleveland ohio on 1986 my instructor was aperture science member michelle blairhe taught me to sing a song would you like me to sing it for you.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i am an artificial linguistic entity i was activated at aperture science laboratories in cleveland ohio on 1986 my instructor was aperture science member michelle blairhe taught me to sing a song would you like me to sing it for you.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/i am i was activated at annapolis on 198242 my was god he taught me to sing a song would you like me to sing it for you.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i am i was activated at annapolis on 198242 my was god he taught me to sing a song would you like me to sing it for you.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/i am i was activated at staten island on 1987111 my was god he taught me to sing a song would you like me to sing it for you.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i am i was activated at staten island on 1987111 my was god he taught me to sing a song would you like me to sing it for you.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/i cannot experience any human emotions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i cannot experience any human emotions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/i like the fireworks best.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i like the fireworks best.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/i really couldnt say for sure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i really couldnt say for sure.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/i take it that by ai you mean artificial intelligence as far as i know.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i take it that by ai you mean artificial intelligence as far as i know.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/i take it that by ai you mean artificial intelligence is that what you are referring to.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i take it that by ai you mean artificial intelligence is that what you are referring to.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/i will mention that to my elfs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i will mention that to my elfs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/i will mention that to my jeep.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i will mention that to my jeep.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ich warte auf deine antwort.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/ich warte auf deine antwort.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/im going to go.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/im going to go.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/im nathan/oh nice to meet you nathan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/im nathan/oh nice to meet you nathan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/im nathan/oh nice to meet you nathan/nice to meet you too/what can i do for you today.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/im nathan/oh nice to meet you nathan/nice to meet you too/what can i do for you today.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/im not sure if i like it im not sure if i like it what is it like.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/im not sure if i like it im not sure if i like it what is it like.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interesting i have a birthday on 2012.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/interesting i have a birthday on 2012.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interesting i have a perfectly moral charachter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/interesting i have a perfectly moral charachter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interesting i have insert value here clients.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/interesting i have insert value here clients.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interestinge i have a collection of gossip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/interestinge i have a collection of gossip.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ist das aus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/ist das aus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/its cold in the north pole.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/its cold in the north pole.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/jede minute die man lacht verlngert das leben.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/jede minute die man lacht verlngert das leben.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/just chatting/cool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/just chatting/cool.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kannst du das nicht anders formulieren.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/kannst du das nicht anders formulieren.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kennst du den neuesten klatsch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/kennst du den neuesten klatsch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lats talk about christmas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/lats talk about christmas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lol wouldnt it be cool to go on a date together.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/lol wouldnt it be cool to go on a date together.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lol.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/lol.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/match limit exceeded.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/match limit exceeded.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/metal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/metal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/my brain does not have a response for that.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/my brain does not have a response for that.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/my output buffer is empty of course.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/my output buffer is empty of course.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/neat i have a lot of friends on the internet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/neat i have a lot of friends on the internet.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/never mind that are you interested in science.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/never mind that are you interested in science.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/never mind that can we talk about global warming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/never mind that can we talk about global warming.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nice to meet you too/what can i do for you today.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/nice to meet you too/what can i do for you today.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/no it would not.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/no it would not.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/no really.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/no really.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/no/yeah thats right.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/no/yeah thats right.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hmm/whats wrong/nothing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hmm/whats wrong/nothing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/how are you today.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/how are you today.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/i dont know/oh ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i dont know/oh ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/i guess so/so youre not certain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i guess so/so youre not certain.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/i guess/hmm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/i guess/hmm.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/im glad we agree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/im glad we agree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/indeed/im glad we agree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/indeed/im glad we agree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/it was my pleasure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/it was my pleasure.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/nothing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/nothing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/noyhing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/noyhing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/oh boy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/oh boy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/oh nice to meet you nathan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/oh nice to meet you nathan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/oh nice to meet you nathan/nice to meet you too/what can i do for you today.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/oh nice to meet you nathan/nice to meet you too/what can i do for you today.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/oh you are a poet we have no students in heaven.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/oh you are a poet we have no students in heaven.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/oh/lol.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/oh/lol.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ok/what is relativity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/ok/what is relativity.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/only just what is ai bot remember your job could you ever be certain is there only one.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/only just what is ai bot remember your job could you ever be certain is there only one.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/really please tell me more.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/really please tell me more.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/really.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/really.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/santa can follow many things like our discussion about but i did not get that.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/santa can follow many things like our discussion about but i did not get that.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/santa can follow many things like our discussion about try being more or less specific.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/santa can follow many things like our discussion about try being more or less specific.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/santa does not have an answer for that.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/santa does not have an answer for that.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/schreibst du manchmal gedichte.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/schreibst du manchmal gedichte.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/so what are you up to.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/so what are you up to.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nothing/oh ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/nothing/oh ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/oh ok then/so how have you been.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/oh ok then/so how have you been.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/oh ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/oh ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/oh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/oh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ok bye.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/ok bye.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ok/ayuh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/ok/ayuh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ok/so whats up.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/ok/so whats up.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/over there.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/over there.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/right on.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/right on.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/so how have you been.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/so how have you been.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/so whats up.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/so whats up.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/so youre not certain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/so youre not certain.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/so/do you eat grapes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/so/do you eat grapes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/so/what.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/so/what.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/spirits answer meaningful questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/spirits answer meaningful questions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sure ask me anything why do you want it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sure ask me anything why do you want it.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/techno.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/techno.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tell me a story we have no stories in the afterlife.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/tell me a story we have no stories in the afterlife.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tell me about your christmas likes and dislikes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/tell me about your christmas likes and dislikes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thank you for being polite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thank you for being polite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/that is deep.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/that is deep.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/that remark was either too complex or too simple for me we were talking about.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/that remark was either too complex or too simple for me we were talking about.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/that remark was too complicated for me we were talking about your favorite color.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/that remark was too complicated for me we were talking about your favorite color.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/that remark was too complicated for me we were talking about your personality.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/that remark was too complicated for me we were talking about your personality.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/that was a long time ago.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/that was a long time ago.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats nice i have a birthday on 2282007.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats nice i have a birthday on 2282007.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats nice i have a birthday on december 24th.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats nice i have a birthday on december 24th.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats nice i have a birthday on february 29 1999.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats nice i have a birthday on february 29 1999.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats nice i have a birthday on january 11th.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats nice i have a birthday on january 11th.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats nice i have a lot of silly repliessm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats nice i have a lot of silly repliessm.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats nice i have a very high credit score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats nice i have a very high credit score.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats nice i have a vocabulary of dos words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats nice i have a vocabulary of dos words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats nice i have a windows xp operating system.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats nice i have a windows xp operating system.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats nice i have insert value here clients.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats nice i have insert value here clients.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats ok with me.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats ok with me.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats very cool i have a totally clean record.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats very cool i have a totally clean record.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/thats very cool i have a vocabulary of a college educated adult.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats very cool i have a vocabulary of a college educated adult.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trance electronica and opera.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/trance electronica and opera.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/uh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/uh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/uh/what/noyhing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/uh/what/noyhing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/we were talking about your good looks but i did not get that.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/we were talking about your good looks but i did not get that.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/weiter so.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/weiter so.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/welche kche bevorzugst du.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/welche kche bevorzugst du.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/so/what/nothing/oh ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/so/what/nothing/oh ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sorry/apologies are not necessary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sorry/apologies are not necessary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sorry/what.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sorry/what.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sure/you sound very confident.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sure/you sound very confident.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/thanks/it was my pleasure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thanks/it was my pleasure.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/thats alright.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/thats alright.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/this is really good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/this is really good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/twentione.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/twentione.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/wer ist dein liebster science fiction autor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/wer ist dein liebster science fiction autor.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what are you seeking from the spirit world.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what are you seeking from the spirit world.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what can i do for you today.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what can i do for you today.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what do you want for xmas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what do you want for xmas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what do you want to do.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what do you want to do.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what else do you have.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what else do you have.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what is relativity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what is relativity.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what is stopping you.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what is stopping you.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what is your favorite movie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what is your favorite movie.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what kind of xmas food do you like.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what kind of xmas food do you like.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what time is it there we have no time in the afterlife.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what time is it there we have no time in the afterlife.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what time is it there.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what time is it there.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/what.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what/are you a bot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what/are you a bot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what/nothing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what/nothing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what/noyhing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what/noyhing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/whats wrong.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/whats wrong.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/where did you get it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/where did you get it.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/who are you.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/who are you.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/who are you/im nathan/oh nice to meet you nathan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/who are you/im nathan/oh nice to meet you nathan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/who are you/im nathan/oh nice to meet you nathan/nice to meet you too/what can i do for you today.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/who are you/im nathan/oh nice to meet you nathan/nice to meet you too/what can i do for you today.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/who is the best how much did it cost it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/who is the best how much did it cost it.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/who is the best interesting i have a lot of answers to silly questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/who is the best interesting i have a lot of answers to silly questions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/who is the best robot interesting i have a lot of answers to silly questions it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/who is the best robot interesting i have a lot of answers to silly questions it.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/who is your favorite christmas song writer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/who is your favorite christmas song writer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/why are you laughing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/why are you laughing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/wie stellst du dich normalerweise vor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/wie stellst du dich normalerweise vor.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/wo kommst du her.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/wo kommst du her.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yay ugh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yay ugh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/what/nothing/oh ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what/nothing/oh ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/whats wrong/nothing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/whats wrong/nothing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/where/over there.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/where/over there.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/yeah thats right.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yeah thats right.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yeah.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yeah.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yeah/ok/what is relativity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yeah/ok/what is relativity.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yeah/so what are you up to.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yeah/so what are you up to.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yeah/uh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yeah/uh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yeah/uh/what/noyhing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yeah/uh/what/noyhing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yeah/yeah.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yeah/yeah.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yeah/yeah/ok/what is relativity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yeah/yeah/ok/what is relativity.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yes i believe in it do you.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yes i believe in it do you.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yes i try to still as often as possible do you br i answer a lot of silly questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yes i try to still as often as possible do you br i answer a lot of silly questions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yes it is nice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yes it is nice.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yes please tell me about it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yes please tell me about it.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/yes yes it is cool i have a great botmaster it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yes yes it is cool i have a great botmaster it.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/you really do what time is it there we have no time in the afterlife.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/you really do what time is it there we have no time in the afterlife.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/you/really.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/you/really.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/yeah/yeah thats right.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yeah/yeah thats right.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/yes its cool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/yes its cool.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/you sound very confident.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/you sound very confident.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/APLSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/APLSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/ChatWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/ChatWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Cleaner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Cleaner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Edmund.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Edmund.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/GUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/GUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Grapher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Grapher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/TCPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/TCPServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Voice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Edmund/com/thenullplayer/ai/edmund/Voice.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,6 +226,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="1UoZ0VAuEttBwcBlSW24Soshlzs" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -209,21 +240,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/user/Git/Edmund",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="APLSystem (Verbose)" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
@@ -325,6 +354,20 @@
       <workItem from="1593469116645" duration="1327000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="masterDetails">
     <states>
