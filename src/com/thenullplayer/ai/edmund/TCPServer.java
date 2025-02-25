@@ -1,4 +1,13 @@
+/*
+################################################################
+#Edmund: TCPServer.java
+#Copyright © 2017-2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
 package com.thenullplayer.ai.edmund;
+
 import java.io.IOException;
 import java.net.*;
 

@@ -1,6 +1,16 @@
+/*
+################################################################
+#Edmund: Edmund.java
+#Copyright © 2017-2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
 package com.thenullplayer.ai.edmund;
+
 import java.util.*;
 import java.io.*;
+
 class Edmund
 {
     private final ArrayList<String> queryArray = new ArrayList<String>(0);
@@ -45,7 +55,7 @@ class Edmund
         if(output.equalsIgnoreCase(""))
         {
             output = input;
-            APLSystem.learn(input,Main.isVerbose);
+            //APLSystem.learn(input,Main.isVerbose); //DEPRECATED
         }
 
         //process output

@@ -5,37 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e5435-74fc-4382-a2a2-4d6ee69d1d9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/dont go/ok/what you want to talk about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dont go/ok/what you want to talk about/space/who are you talking about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/i got to go/dont go.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/i got to go/dont go/ok/what you want to talk about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/idk/haha.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/not much/oh cool/i got to go/dont go.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/oh cool/i got to go/dont go.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/oh cool/i got to go/dont go/ok/what you want to talk about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ok/what you want to talk about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ok/what you want to talk about/space/who are you talking about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/space/who are you talking about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/space/who are you talking about/idk/haha.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/what are you doing/not much/oh cool/i got to go/dont go.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/what you want to talk about/space/who are you talking about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/what you want to talk about/space/who are you talking about/idk/haha.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/who are you talking about/idk/haha.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brain.dot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dont go.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/dont go.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/haha.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/haha.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hello.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hello/hi/what are you doing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hello/hi/what are you doing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hello/hi/what are you doing/not much/oh cool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hello/hi/what are you doing/not much/oh cool.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hi/what are you doing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hi/what are you doing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hi/what are you doing/not much/oh cool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/hi/what are you doing/not much/oh cool.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/not much/oh cool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/not much/oh cool.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/oh cool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/oh cool.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what are you doing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what are you doing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what are you doing/not much/oh cool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what are you doing/not much/oh cool.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/what you want to talk about.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/what you want to talk about.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/who are you talking about.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/who are you talking about.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph.dot" beforeDir="false" afterPath="$PROJECT_DIR$/graph.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/APLSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/APLSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/ChatWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/ChatWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Cleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Cleaner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Edmund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Edmund.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Grapher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Grapher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/TCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +48,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="1UoZ0VAuEttBwcBlSW24Soshlzs" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -82,6 +65,8 @@
     "Application.Grapher.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/user/Git/Edmund",
     "project.structure.last.edited": "Artifacts",
@@ -90,7 +75,7 @@
     "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Grapher">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="APLSystem (Verbose)" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />
       <module name="Edmund" />

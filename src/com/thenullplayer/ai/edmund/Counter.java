@@ -1,5 +1,15 @@
+/*
+################################################################
+#Edmund: Counter.java
+#Copyright © 2017-2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
 package com.thenullplayer.ai.edmund;
+
 import java.io.*;
+
 class Counter
 {
     public static int countLines(String filename) throws IOException

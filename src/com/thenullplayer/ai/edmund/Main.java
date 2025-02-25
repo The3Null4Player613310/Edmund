@@ -1,4 +1,13 @@
+/*
+################################################################
+#Edmund: Main.java
+#Copyright © 2017-2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
 package com.thenullplayer.ai.edmund;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
@@ -37,7 +46,7 @@ class Main {
                 try
                 {
                     File file = new File(args[i + 1]);
-                    APLSystem.learn(file,isVerbose);
+                    //APLSystem.learn(file,isVerbose); //DEPRECATED
                     return;
                 }
                 catch(IOException e)
@@ -56,7 +65,7 @@ class Main {
 
         //generate output
         System.out.println("Edmund: " + output);
-        Voice.speak(output);
+        //Voice.speak(output); //DEPRECATED
 
         do
         {
@@ -73,11 +82,11 @@ class Main {
                     case "learn":
                         System.out.println("System: please enter a prompt");
                         System.out.print("User: ");
-                        APLSystem.learn(kb.nextLine(),isVerbose);
+                        //APLSystem.learn(kb.nextLine(),isVerbose); //DEPRECATED
                         System.out.println("System: fetching data");
                         break;
                     case "speech":
-                        Voice.manager();
+                        //Voice.manager(); //DEPRECATED
                         if(Voice.isRunning)
                             System.out.println("System: speech enabled");
                         else

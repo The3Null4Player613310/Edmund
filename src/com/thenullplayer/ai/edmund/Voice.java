@@ -1,3 +1,11 @@
+/*
+################################################################
+#Edmund: Voice.java
+#Copyright © 2017-2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
 package com.thenullplayer.ai.edmund;
 
 import javax.sound.sampled.*;
