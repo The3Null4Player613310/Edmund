@@ -4,7 +4,7 @@ A chatbot with context.
 ### COPYRIGHT NOTICE:
 
 Edmund:  
-Copyright © 2016-2025  Allison Munn
+Copyright © 2017-2025  Allison Munn
 
 This program is free software; you can redistribute it and/or modify  
 it under the terms of the GNU General Public License as published by  

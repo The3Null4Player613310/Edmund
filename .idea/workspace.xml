@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e5435-74fc-4382-a2a2-4d6ee69d1d9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/brain.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph.dot" beforeDir="false" afterPath="$PROJECT_DIR$/graph.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/APLSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/APLSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/ChatWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/ChatWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Cleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Cleaner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Edmund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Edmund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Grapher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Grapher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/TCPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thenullplayer/ai/edmund/Voice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Grapher.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/user/Git/Edmund",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Grapher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/Git/Edmund&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="APLSystem (Verbose)" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.thenullplayer.ai.edmund.Main" />

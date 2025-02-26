@@ -43,16 +43,16 @@ class Main {
                 Grapher.graph();
             if(args[i].equalsIgnoreCase("-L") && (i<(args.length-1)))
             {
-                try
-                {
-                    File file = new File(args[i + 1]);
-                    //APLSystem.learn(file,isVerbose); //DEPRECATED
-                    return;
-                }
-                catch(IOException e)
-                {
-                    e.printStackTrace();
-                }
+                //try
+                //{
+                //    File file = new File(args[i + 1]);
+                //    //APLSystem.learn(file,isVerbose); //DEPRECATED
+                //    return;
+                //}
+                //catch(IOException e)
+                //{
+                //    e.printStackTrace();
+                //}
             }
         }
 
