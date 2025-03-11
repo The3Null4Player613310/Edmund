@@ -19,6 +19,7 @@ public class GUI
     private JLabel headerLabel;
     private JLabel statusLabel;
     private JPanel controlPanel;
+    private JTextField inputField;
     public static GUI gui;
 
     public GUI()
@@ -39,9 +40,14 @@ public class GUI
         controlPanel = new JPanel();
         controlPanel.setLayout(new FlowLayout());
 
+        inputField = new JTextField();
+
         mainFrame.add(headerLabel);
         mainFrame.add(controlPanel);
         mainFrame.add(statusLabel);
+
+        controlPanel.add(inputField);
+
         mainFrame.setVisible(true);
     }
 
